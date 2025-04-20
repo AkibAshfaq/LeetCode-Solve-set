@@ -8,6 +8,7 @@ public:
 
         for (char c : s) {
             switch (c) {
+                
                 case '(': case '{': case '[':
                     st.push(c);
                     break;
