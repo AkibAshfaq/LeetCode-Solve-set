@@ -9,7 +9,6 @@ public:
         for(int i = len - 1; i >= 0; i--){
             reverse += original[i];
         }
-        
 
         return original == reverse;
     }
